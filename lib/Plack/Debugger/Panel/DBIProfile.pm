@@ -132,7 +132,7 @@ See L<https://metacpan.org/pod/DBI::Profile#ENABLING-A-PROFILE>.
 
 =item C<dbi_profile_format>
 
-Default: C<%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs>
+Default: C<%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs)>
 
 See L<https://metacpan.org/pod/DBI::Profile#as_text>, but note that the format must
 include 'XXX'. We split on the XXX and place the pair in succeeding rows of the
