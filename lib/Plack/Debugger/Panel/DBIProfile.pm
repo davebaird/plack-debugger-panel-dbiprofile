@@ -111,12 +111,10 @@ __END__
 
     my $debugger = Plack::Debugger->new(
         panels => [
-            Plack::Debugger::Panel::DBIProfile->new(
-                dbi_profile => 6,
-                dbi_profile_format => '%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs'
-                ),
-
+            Plack::Debugger::Panel::DBIProfile->new(),
             ... etc.
+        ],
+
 
 
 =head1 DESCRIPTION
