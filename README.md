@@ -1,6 +1,6 @@
 # NAME
 
-Plack::Debugger::Panel::DBIProfile - Debug panel for inspecting database activity
+Plack::Debugger::Panel::DBIProfile
 
 # VERSION
 
@@ -10,12 +10,9 @@ version 0.01
 
     my $debugger = Plack::Debugger->new(
         panels => [
-            Plack::Debugger::Panel::DBIProfile->new(
-                dbi_profile => 6,
-                dbi_profile_format => '%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs'
-                ),
-
+            Plack::Debugger::Panel::DBIProfile->new(),
             ... etc.
+        ],
 
 # DESCRIPTION
 
@@ -50,11 +47,3 @@ This software is copyright (c) 2016 by David R. Baird.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-# POD ERRORS
-
-Hey! **The above document had some coding errors, which are explained below:**
-
-- Around line 49:
-
-    You forgot a '=back' before '=head1'

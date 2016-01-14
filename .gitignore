@@ -14,11 +14,11 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-HTML-FormHandlerX-JQueryRemoteValidator-*
-HTML-FormHandlerX-JQueryRemoteValidator-*.tar.gz
+*.tar.gz
 MANIFEST.bak
 *.o
 *.bs
 /_eumm/
 *~
+Plack-Debugger-Panel-DBIProfile-*
 

@@ -21,6 +21,9 @@ my %WriteMakefileArgs = (
     "parent" => "0.220",
     "warnings" => "1.05_01"
   },
+  "TEST_REQUIRES" => {
+    "Test::More" => "0.75"
+  },
   "VERSION" => "0.01",
   "test" => {
     "TESTS" => "t/*.t"
@@ -31,6 +34,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "DBI::Profile" => "2.010494",
   "Plack::Debugger::Panel" => "0.01",
+  "Test::More" => "0.75",
   "Time::HiRes" => "1.9712",
   "parent" => "0.220",
   "warnings" => "1.05_01"

@@ -1,11 +1,7 @@
-package Plack::Debugger::Panel::DBIProfile;
-
-# ABSTRACT: Debug panel for inspecting database activity
-
 use strict;
 use warnings;
+package Plack::Debugger::Panel::DBIProfile;
 
-our $AUTHORITY = 'cpan:DAVEBAIRD';
 
 use parent 'Plack::Debugger::Panel';
 use DBI::Profile;
@@ -142,4 +138,5 @@ See L<https://metacpan.org/pod/DBI::Profile#as_text>, but note that the format m
 include 'XXX'. We split on the XXX and place the pair in succeeding rows of the
 debugger panel.
 
+=back
 
