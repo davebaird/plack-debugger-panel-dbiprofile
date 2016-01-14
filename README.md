@@ -31,7 +31,7 @@ Accepts two optional parameters in addition to those documented in [Plack::Debug
 
 - `dbi_profile_format`
 
-    Default: `%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs`
+    Default: `%1$s XXX %11$fs / %10$d = %2$fs avg (first %12$fs, min %13$fs, max %14$fs)`
 
     See [https://metacpan.org/pod/DBI::Profile#as\_text](https://metacpan.org/pod/DBI::Profile#as_text), but note that the format must
     include 'XXX'. We split on the XXX and place the pair in succeeding rows of the
